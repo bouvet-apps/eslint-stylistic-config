@@ -1,0 +1,31 @@
+{
+  "name": "eslint-stylistic-config",
+  "version": "0.0.0",
+  "description": "Composable ESLint Stylistic flat configs for JavaScript, Vue, and React projects",
+  "homepage": "https://github.com/bouvet-apps/eslint-stylistic-config#readme",
+  "license": "MIT",
+  "author": "Bouvet",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bouvet-apps/eslint-stylistic-config.git"
+  },
+  "scripts": {
+    "install_new_dependencies": "npm i --ignore-scripts",
+    "lint": "eslint .",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": "6.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=10.0.0"
+  }
+}
